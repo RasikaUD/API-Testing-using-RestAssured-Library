@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4695" started-at="2018-05-06T03:35:38Z" finished-at="2018-05-06T03:35:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4695" started-at="2018-05-06T03:35:38Z" finished-at="2018-05-06T03:35:43Z">
+      <class name="SimpleGetTest">
+        <test-method status="PASS" signature="GetWeatherDetails()[pri:0, instance:SimpleGetTest@482f8f11]" name="GetWeatherDetails" duration-ms="1787" started-at="2018-05-06T03:35:38Z" finished-at="2018-05-06T03:35:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetWeatherDetails -->
+        <test-method status="PASS" signature="GetStatusCodeForValidCity()[pri:1, instance:SimpleGetTest@482f8f11]" name="GetStatusCodeForValidCity" duration-ms="345" started-at="2018-05-06T03:35:40Z" finished-at="2018-05-06T03:35:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetStatusCodeForValidCity -->
+        <test-method status="PASS" signature="GetStatusCodeForInValidCity()[pri:2, instance:SimpleGetTest@482f8f11]" name="GetStatusCodeForInValidCity" duration-ms="486" started-at="2018-05-06T03:35:40Z" finished-at="2018-05-06T03:35:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetStatusCodeForInValidCity -->
+        <test-method status="PASS" signature="GetWeatherHeaders()[pri:3, instance:SimpleGetTest@482f8f11]" name="GetWeatherHeaders" duration-ms="398" started-at="2018-05-06T03:35:41Z" finished-at="2018-05-06T03:35:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetWeatherHeaders -->
+        <test-method status="PASS" signature="getBodyDetails()[pri:4, instance:SimpleGetTest@482f8f11]" name="getBodyDetails" duration-ms="374" started-at="2018-05-06T03:35:41Z" finished-at="2018-05-06T03:35:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBodyDetails -->
+        <test-method status="PASS" signature="VerifyCityinJSONBody()[pri:5, instance:SimpleGetTest@482f8f11]" name="VerifyCityinJSONBody" duration-ms="1014" started-at="2018-05-06T03:35:41Z" finished-at="2018-05-06T03:35:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCityinJSONBody -->
+        <test-method status="PASS" signature="RegisterUser()[pri:6, instance:SimpleGetTest@482f8f11]" name="RegisterUser" duration-ms="247" started-at="2018-05-06T03:35:42Z" finished-at="2018-05-06T03:35:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterUser -->
+      </class> <!-- SimpleGetTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
